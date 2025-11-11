@@ -1,0 +1,6 @@
+- Pandas stands for python Data Analysis.
+- Pandas is open source python library used for data manipulation and analysis.
+- It provides fast flexible and expressive data structure designed to make working with structured data like excel or tables easy and efficient way.
+- Data structures in pandas:
+  - series : It is mainly used for one dimentional labelled array like columns
+  - Data Frames : It is used for two dimentional labelled data structure like complete excel having rows and columns.
