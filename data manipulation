@@ -1,0 +1,30 @@
+pandas operations :
+1. to_frame() : converts series to dataframe.
+2. type(structure_name) : gives the type of data structure.
+3. os.getcwd() : To get the current working path.
+4. read_csv(file_name.csv) : To load the data from the csv file.
+5. read_excel(file_name.xlsx) : To load the data from excel file.
+6. read_json(file_name.json) : To load the data from json file.
+7. read_sql(file_name.sql) : To load the data from sql file.
+8. to_csv() or to_excel(),to_sql(),to_json() : storing data from dataframe to csv or excel or json or sql file.
+9. shape : To know the shape of dataframe.
+10. head() : gives top 5 rows or we can mention how many rows we want.
+11. tail() : Gives bottom 5 rows or we can mention the number of rows from bottom we want.
+12. sample() : Gives random samples of data.
+13. rename : Rename the column name.
+14. copy() : copies the original and creates the duplicate one.
+15. rank(column_name) : Gives rank based on given column.
+16. sort_values(column_name) : sorts values based on given column.
+17. drop(column_name,axis = 1) : It drops a column
+18. drop(columns = [col1,col2,col3]) : To drop multiple columns at a time.
+19. column_name.unique() : finding unique values from the table of selected column.
+20. replace(old_value,new_value) : replaces old_value to new_value.
+21. dtypes : To know the data types of all the columns.
+22. astype() : converts from one data type to another data type.
+23. info() : gives about the entire tables information
+24. select_dtypes(include = [col1,col2]) : selecting columns based on data types.
+25. describe() : it describes the statistical information about the data.
+26. table_name[condition] : Filtering based on conditions.
+27. where(condition) : It returns the records which are satisfying a condition.
+28. where(condition,constant_value) : it replaces nan value wit constant_value.
+29. 
