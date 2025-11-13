@@ -27,4 +27,37 @@ pandas operations :
 26. table_name[condition] : Filtering based on conditions.
 27. where(condition) : It returns the records which are satisfying a condition.
 28. where(condition,constant_value) : it replaces nan value wit constant_value.
-29. 
+29. loc[rows_index,column_names] : It is used for slicing/Indexing
+30. iloc[rows_index,columns_index] : here we mention only index numbers not the names.
+31. at and iat are special version of loc and iloc and at and iat are faster than loc and iloc for single value update.
+32. sort_values(column_name) : it sorts values based on the given column name.
+33. set_index(column_name) : By default the index starts with 0 but by using this we can change.
+34. reset_index(inplace = True) : it resets back into the original index and inplace will perform on the same data.
+35. isnull() : can check if null values exist or not.
+36. dropna() : It delete the records having null values.
+37. dropna(axis=1) : it drops entire column having null values.
+38. fillna(value) : fills null value with any constant value like mean or max like that.
+39. duplicated() : returns true or false if there is duplicate values.
+40. drop_duplicates() : It removes duplicate values.
+41. title() : returns the fist index of string into capitalized.
+42. lower() : converts string into lower case letters.
+43. upper() : converts string into upper case letters.
+44. strip() : removes extra spaces from left or right of strings.
+45. apply() : lets you run the custom function on your dataset. like lambda function.
+46. map() : mainly used for mapping of value.
+47. sum() : sum of column values
+48. min() : min value, idxmin() : id of min value.
+49. max() : max value from column,idxmax() : id of max.
+50. mean() : mean value or average value of column.
+51. std() : standard deviation
+52. var() : variance
+53. median(),mode() : calculates mean or mode values.
+54. groupby(column_name) : group the data based on subgroups.
+55. merge(column_names,on = column_name,how = 'inner') : help to merge the df, based on common columns.
+56. inner() : gives common values from both tables.
+57. outer() : gives all data from both but common returns once only
+58. left() : all records from left and common columns from right
+59. right() : all from right and common from left.
+60. join(column_name,how = '') : joins the df based on index.
+61. concat() : combine df vertially or horizontally.
+62. date_range(start,end) : it gives the date with difference of time based on start and end.
